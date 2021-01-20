@@ -1,5 +1,5 @@
 /*
- * Control 5 LED
+ * Control 5 LED example
  */
  int del = 100; //定义延时100ms
 void setup() {
