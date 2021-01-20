@@ -1,3 +1,4 @@
+// 练习，设置交通灯
 void setup() {
   // put your setup code here, to run once:
   pinMode(12, OUTPUT);//红灯
