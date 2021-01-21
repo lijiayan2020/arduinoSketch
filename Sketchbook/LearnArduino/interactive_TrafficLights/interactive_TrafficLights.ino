@@ -6,7 +6,7 @@ int carYellow = 7;
 int carGreen = 8;
 
 //按键引脚
-int button = 10;
+int button = 9;
 
   //设置行人
 int pedRed = 11;
@@ -28,7 +28,7 @@ void setup() {
 
   //初始交通灯
   digitalWrite(carGreen, HIGH); //开始，汽车灯为绿
-  digitalWrite(pedRed, LOW); //行人灯为红
+  digitalWrite(pedRed, HIGH); //行人灯为红
 }
 
 void loop() {
